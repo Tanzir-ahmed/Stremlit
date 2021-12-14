@@ -4,7 +4,7 @@ from PIL import Image
 from pathlib import Path
 import plotly.express as px
 
-img_path = Path("F:\Mizan _ OneDrive\OneDrive - BUET\Py _ptractice\covid19-information-and-updates-serbia-banner.jpg")
+img_path = 'covid19-information-and-updates-serbia-banner.jpg'
 url= 'https://raw.githubusercontent.com/prathami1/covid-analysis/main/data/vaccine_data/all-states-history.csv'
 
 @st.cache
